@@ -4,8 +4,8 @@ import java.awt.Component;
 import junit.extensions.jfcunit.JFCTestCase;
 
 public abstract class AbstractJFCTestCase extends JFCTestCase {
-    private static final int LOOP_DELAY = 10;
-    private static final int LOOP_TIMEOUT = 500;
+    private static final int LOOP_DELAY = 500;
+    private static final int LOOP_TIMEOUT = 5000;
 
 
     public void setFocus(Component component) {
